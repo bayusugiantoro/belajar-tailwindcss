@@ -4,12 +4,71 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;900&display=swap"
+      rel="stylesheet"
+    />
     <link href="/dist/output.css" rel="stylesheet" />
     <title>Belajar TailwindCSS</title>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline text-red-600">
-      Hello Word TailwindCSS!
+    <h1 class="text-6xl font-bold text-center my-10">
+      Hello Word
+      <span
+        class="bg-gradient-to-r from-blue-500 to-teal-400 bg-clip-text text-transparent"
+        >TailwindCSS!</span
+      >
     </h1>
+    <!-- Belajar Spacing Start -->
+    <section
+      class="mb-10 bg-gradient-to-br from-indigo-200 via-red-400 to-yellow-300"
+    >
+      <h2 class="text-3xl text-center">Spacing</h2>
+      <div class="m-13">Margin</div>
+      <div class="p-8">Padding</div>
+    </section>
+    <!-- Belajar Spacing End -->
+
+    <!-- Belajar Sizing  Start -->
+    <section class="mb-10 bg-green-200">
+      <h2 class="text-3xl text-center">Sizing</h2>
+      <div class="w-32 h-32 bg-kopi">Kotak 1</div>
+    </section>
+    <!-- Belajar Sizing  Start -->
+
+    <!-- Belajar Typography  Start -->
+    <section class="mb-96 font-inter max-w-3xl mx-auto">
+      <h2 class="mb-2 text-4xl font-bold">
+        Belajar Mengenai Typography pada TailwindCSS
+      </h2>
+      <div class="mb-4 text-lg text-gray-500">
+        By <a href="" class="text-gray-700 font-semibold">Bayu Sugiantoro</a>,
+        24 Juni 2023
+      </div>
+      <p class="mb-4">
+        Lorem, ipsum dolor sit amet
+        <a href="#" class="underline font-semibold text-blue-600"
+          >consectetur</a
+        >
+        adipisicing elit. Atque est error explicabo, ea voluptatum laborum
+        cumque deserunt distinctio quidem, debitis ex aspernatur adipisci esse
+        tenetur nesciunt repudiandae illum, optio odio. Non animi fugit rem nisi
+        necessitatibus at officiis qui ea et dicta error dolor, eius consequatur
+        aspernatur quod fuga amet?
+      </p>
+      <blockquote class="mb-4 italic font-thin text-xl">
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quas
+        natus in optio excepturi amet officia iusto. Veritatis, saepe
+        doloribus".
+      </blockquote>
+      <p class="mb-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non porro
+        ducimus a, soluta tempora ad magnam assumenda ipsa quam delectus tenetur
+        itaque repellendus saepe impedit qui quis accusantium nihil! Laboriosam.
+      </p>
+    </section>
+    <!-- Belajar Typography  End -->
   </body>
 </html>
